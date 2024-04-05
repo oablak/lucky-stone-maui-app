@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyStone.WebApi", "LuckyStone.WebApi\LuckyStone.WebApi.csproj", "{D3B7236E-2D19-47AD-8716-C82CDA83051B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuckyStone.Maui", "LuckyStone.Maui\LuckyStone.Maui.csproj", "{2486F04E-14B3-4E76-9424-AA93B1113FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B7236E-2D19-47AD-8716-C82CDA83051B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B7236E-2D19-47AD-8716-C82CDA83051B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B7236E-2D19-47AD-8716-C82CDA83051B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B7236E-2D19-47AD-8716-C82CDA83051B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2486F04E-14B3-4E76-9424-AA93B1113FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2486F04E-14B3-4E76-9424-AA93B1113FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2486F04E-14B3-4E76-9424-AA93B1113FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2486F04E-14B3-4E76-9424-AA93B1113FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
