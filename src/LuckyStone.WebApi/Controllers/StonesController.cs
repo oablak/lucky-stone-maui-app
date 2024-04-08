@@ -1,4 +1,5 @@
 ﻿using LuckyStone.WebApi.Services.Abstraction;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,7 @@ public class StonesController : Controller
     }
 
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAllStones()
     {
         return Ok(_stoneService.GetAllStones());
