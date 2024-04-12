@@ -4,5 +4,5 @@ namespace LuckyStone.WebApi.Services.Abstraction;
 
 public interface IStoneService
 {
-    Task<IEnumerable<Stone>> GetAllStones();
+    Task<IEnumerable<Stone>> GetAllStonesAsync();
 }

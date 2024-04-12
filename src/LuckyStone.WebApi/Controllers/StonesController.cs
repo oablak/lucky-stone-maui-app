@@ -19,6 +19,6 @@ public class StonesController : Controller
     [Authorize]
     public async Task<IActionResult> GetAllStones()
     {
-        return Ok(_stoneService.GetAllStones());
+        return Ok(await _stoneService.GetAllStonesAsync());
     }
 }

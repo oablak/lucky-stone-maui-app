@@ -5,7 +5,7 @@ namespace LuckyStone.WebApi.Services;
 
 public class StoneService : IStoneService
 {
-    public async Task<IEnumerable<Stone>> GetAllStones()
+    public async Task<IEnumerable<Stone>> GetAllStonesAsync()
     {
         return new List<Stone>()
         {
